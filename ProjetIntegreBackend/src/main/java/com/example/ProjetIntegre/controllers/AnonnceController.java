@@ -24,7 +24,7 @@ public class AnonnceController {
     private AnonnceService anonnceService;
     @Autowired
     private OrganisationService organisationService;
-    public static final String ImageFolderPath = "C:/Users/Riane Mounir/Desktop/ProjetIntegre/ImagesApp/";
+    public static final String ImageFolderPath = ""C:/Users/Riane Mounir/Desktop/TourismPlatform/ImagesApp/";
     @PostMapping("/new")
     public ResponseEntity<String> addPublication(@RequestParam Map<Object, Object> body,
                                                  @RequestParam("files") List<MultipartFile> files) {
