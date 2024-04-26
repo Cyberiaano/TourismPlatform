@@ -1,9 +1,15 @@
-The sql driver has been used in this project is Postgresql
-To run this code, you have to ensure the existance of the following dependencies :
-    * Spring security
-    * Spring Data Jpa
-    * Lombook
-    * Postgresql Driver
-The application manipulate images locally, that is to say it doesn't store images in the database.
-Otherwise, it stores it in a local directroy which the path has ben mentionned in the HomeController.java, PublicationController and AnonnceController. 
-So, for runnig this code in another computer, this path sould be adpted.
+#TourismPlatform: Wander
+Wander is a web application designed to enhance the travel experience by connecting adventurers and touristic service providers in one dynamic platform.
+
+#Used technologies:
+Framework for the backend :
+Spring Boot avec les dépendances suivantes:
+- Spring Data Jpa
+- Spring Web
+- Lambook
+
+Framework for the frontend :
+Angular latest version
+Bootstrap for styling
+
+Data base : Postgresql
