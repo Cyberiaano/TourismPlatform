@@ -9,7 +9,7 @@ Spring Boot avec les dépendances suivantes:
 - Lambook
 
 # Framework for the frontend :
-Angular latest version
-Bootstrap for styling
+- Angular latest version
+- Bootstrap for styling
 
 # Data base : Postgresql
